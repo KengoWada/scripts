@@ -1,13 +1,10 @@
 #!/bin/bash
 
 sudo apt-get update
-clear
 
 sudo apt-get upgrade -y
-clear
 
 sudo apt-get install python3.8-venv python3.8-dev python3-opencv redis-server postgresql nginx postgresql-contrib libpcap-dev libpq-dev -y
-clear
 
 git clone https://github.com/KengoWada/raid_be.git /home/raid/raid_be
 
@@ -17,5 +14,3 @@ mkdir /home/raid/raid_be/static
 mkdir /home/raid/raid_be/media
 mkdir /home/raid/raid_ml_model/xray_uploads
 mkdir /home/raid/raid_ml_model/xray_uploads_results
-
-clear
